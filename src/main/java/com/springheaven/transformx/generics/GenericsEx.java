@@ -32,6 +32,8 @@ public class GenericsEx {
         return list;
     }
 
+    //tomorrow subtyping and wild card changes
+
 
     public static void main(String[] args) {
         List<String> StringList = Arrays.asList("PraveenRaj", "MohanRaj", "VasanthiraDevi");
