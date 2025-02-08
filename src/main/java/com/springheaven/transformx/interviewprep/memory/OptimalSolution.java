@@ -26,17 +26,17 @@ public class OptimalSolution {
         Path stremeEfficient = Path.of("Stream_efficient.txt");
 
 
-//        //generate a large file of 100,000 line
-//        int no_of_lines = 100000;
-//        generateLargefile(datafile, 100_000_000, outputFile);
-//
-//
-//        Long start = System.currentTimeMillis();
-//        processTheLargeFileWriteInefficiently(datafile,inefficient);
-//        Long end = System.currentTimeMillis();
-//        long totalTime = end - start;
-//        System.out.println("time take to read the large file "+totalTime+" ms" );
-//
+        //generate a large file of 100,000 line
+        int no_of_lines = 100000;
+        generateLargefile(datafile, no_of_lines, outputFile);
+
+
+        Long start = System.currentTimeMillis();
+        processTheLargeFileWriteInefficiently(datafile,inefficient);
+        Long end = System.currentTimeMillis();
+        long totalTime = end - start;
+        System.out.println("time take to read the large file "+totalTime+" ms" );
+
 
         Long startTime1= System.currentTimeMillis();
         processTheLargeFileWriteEfficientlyReadLineByLine(datafile,efficient);
