@@ -2,7 +2,7 @@ package com.springheaven.transformx.threadsex;
 
 import java.util.concurrent.*;
 
-public class CompletableFuture {
+public class CompletableFutureTest {
 
 
     public String getFirstName(){
@@ -30,7 +30,7 @@ public class CompletableFuture {
 
     public static void main(String[] args) throws ExecutionException, InterruptedException {
 
-        CompletableFuture completableFuture = new CompletableFuture();
+        CompletableFutureTest completableFuture = new CompletableFutureTest();
 //        long startTime = System.currentTimeMillis();
 //        String firstName = completableFuture.getFirstName();//this is a   blocking call
 //        System.out.println(firstName);
