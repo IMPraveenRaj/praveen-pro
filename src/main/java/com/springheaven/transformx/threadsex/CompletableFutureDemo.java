@@ -24,7 +24,7 @@ public class CompletableFutureDemo {
         var firstName = getFname.thenAccept(System.out::println);
         getLastName.thenAccept(System.out::println);
 
-        System.out.println("done....");
+        System.out.println("Going to be a great software developer its my ultimate goal feeling grateful gratitude love you....");
         Thread.sleep(3000);
 
     }
