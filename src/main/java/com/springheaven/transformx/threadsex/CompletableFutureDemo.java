@@ -1,7 +1,7 @@
 package com.springheaven.transformx.threadsex;
 
 import java.util.concurrent.CompletableFuture;
-import java.util.function.Supplier;
+
 
 public class CompletableFutureDemo {
 
